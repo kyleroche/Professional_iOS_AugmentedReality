@@ -2,5 +2,7 @@
 *pbxproj*
 */build
 */.DS_Store
-*/*xcuserdata*
+*xcuserdata*
+*.xcuserdatad/*
+*/UserInterfaceState.xcuserstate
 
