@@ -8,6 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import <OpenGLES/EAGL.h>
+#import <OpenGLES/ES1/gl.h>
+#import <OpenGLES/ES1/glext.h>
+#import <OpenGLES/ES2/gl.h>
+#import <OpenGLES/ES2/glext.h>
+#import "StringOGL.h"
+
+
+@interface ViewController : UIViewController <StringOGLDelegate> {
+    EAGLContext *context;
+    StringOGL *stringOGL;
+    float projectionMatrix[16];
+    BOOL animating;
+}
+- (void)startAnimation;
+- (void)stopAnimation;
 
 @end

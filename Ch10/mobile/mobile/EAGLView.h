@@ -28,6 +28,5 @@
 @property (nonatomic, readonly) GLint framebufferHeight;
 
 - (void)setFrameBuffer;
-
 @end
 

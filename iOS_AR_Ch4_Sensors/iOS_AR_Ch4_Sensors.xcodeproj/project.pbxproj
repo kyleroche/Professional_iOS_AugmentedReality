@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9604F5DA13C3889F008141DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9604F5D913C3889F008141DE /* UIKit.framework */; };
+		9604F5DC13C3889F008141DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9604F5DB13C3889F008141DE /* Foundation.framework */; };
+		9604F5DE13C3889F008141DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9604F5DD13C3889F008141DE /* CoreGraphics.framework */; };
+		9604F5E413C3889F008141DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9604F5E213C3889F008141DE /* InfoPlist.strings */; };
+		9604F5E713C3889F008141DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9604F5E613C3889F008141DE /* main.m */; };
+		9604F5EA13C3889F008141DE /* iOS_AR_Ch4_SensorsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9604F5E913C3889F008141DE /* iOS_AR_Ch4_SensorsAppDelegate.m */; };
+		9604F5ED13C3889F008141DE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9604F5EB13C3889F008141DE /* MainWindow.xib */; };
+		9604F5F013C3889F008141DE /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9604F5EF13C3889F008141DE /* FirstViewController.m */; };
+		9604F5F313C3889F008141DE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9604F5F213C3889F008141DE /* SecondViewController.m */; };
+		9604F5F613C3889F008141DE /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9604F5F413C3889F008141DE /* FirstView.xib */; };
+		9604F5F913C3889F008141DE /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9604F5F713C3889F008141DE /* SecondView.xib */; };
+		96A5454513C7872B00A4D62F /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A5454413C7872B00A4D62F /* CoreMotion.framework */; };
+		96B52EE213C80C290034CCCF /* figher-jet.png in Resources */ = {isa = PBXBuildFile; fileRef = 96B52EE113C80C290034CCCF /* figher-jet.png */; };
+		96E32ED51422400A00FA0FBC /* headingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E32ED31422400A00FA0FBC /* headingViewController.m */; };
+		96E32ED61422400A00FA0FBC /* headingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96E32ED41422400A00FA0FBC /* headingViewController.xib */; };
+		96E32ED9142240E300FA0FBC /* compass.png in Resources */ = {isa = PBXBuildFile; fileRef = 96E32ED8142240E300FA0FBC /* compass.png */; };
+		96E32EDB14224E4600FA0FBC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E32EDA14224E4600FA0FBC /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9604F5D513C3889F008141DE /* iOS_AR_Ch4_Sensors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_AR_Ch4_Sensors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9604F5D913C3889F008141DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9604F5DB13C3889F008141DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9604F5DD13C3889F008141DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9604F5E113C3889F008141DE /* iOS_AR_Ch4_Sensors-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS_AR_Ch4_Sensors-Info.plist"; sourceTree = "<group>"; };
+		9604F5E313C3889F008141DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9604F5E513C3889F008141DE /* iOS_AR_Ch4_Sensors-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS_AR_Ch4_Sensors-Prefix.pch"; sourceTree = "<group>"; };
+		9604F5E613C3889F008141DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9604F5E813C3889F008141DE /* iOS_AR_Ch4_SensorsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS_AR_Ch4_SensorsAppDelegate.h; sourceTree = "<group>"; };
+		9604F5E913C3889F008141DE /* iOS_AR_Ch4_SensorsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_AR_Ch4_SensorsAppDelegate.m; sourceTree = "<group>"; };
+		9604F5EC13C3889F008141DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		9604F5EE13C3889F008141DE /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		9604F5EF13C3889F008141DE /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		9604F5F113C3889F008141DE /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		9604F5F213C3889F008141DE /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		9604F5F513C3889F008141DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		9604F5F813C3889F008141DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		96A5454413C7872B00A4D62F /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		96B52EE113C80C290034CCCF /* figher-jet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "figher-jet.png"; sourceTree = "<group>"; };
+		96E32ED21422400A00FA0FBC /* headingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = headingViewController.h; sourceTree = "<group>"; };
+		96E32ED31422400A00FA0FBC /* headingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = headingViewController.m; sourceTree = "<group>"; };
+		96E32ED41422400A00FA0FBC /* headingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = headingViewController.xib; sourceTree = "<group>"; };
+		96E32ED8142240E300FA0FBC /* compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass.png; sourceTree = "<group>"; };
+		96E32EDA14224E4600FA0FBC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9604F5D213C3889F008141DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E32EDB14224E4600FA0FBC /* CoreLocation.framework in Frameworks */,
+				96A5454513C7872B00A4D62F /* CoreMotion.framework in Frameworks */,
+				9604F5DA13C3889F008141DE /* UIKit.framework in Frameworks */,
+				9604F5DC13C3889F008141DE /* Foundation.framework in Frameworks */,
+				9604F5DE13C3889F008141DE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9604F5CA13C3889F008141DE = {
+			isa = PBXGroup;
+			children = (
+				96E32EDA14224E4600FA0FBC /* CoreLocation.framework */,
+				96A5454413C7872B00A4D62F /* CoreMotion.framework */,
+				9604F5DF13C3889F008141DE /* iOS_AR_Ch4_Sensors */,
+				9604F5D813C3889F008141DE /* Frameworks */,
+				9604F5D613C3889F008141DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9604F5D613C3889F008141DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9604F5D513C3889F008141DE /* iOS_AR_Ch4_Sensors.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9604F5D813C3889F008141DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9604F5D913C3889F008141DE /* UIKit.framework */,
+				9604F5DB13C3889F008141DE /* Foundation.framework */,
+				9604F5DD13C3889F008141DE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9604F5DF13C3889F008141DE /* iOS_AR_Ch4_Sensors */ = {
+			isa = PBXGroup;
+			children = (
+				9604F5E813C3889F008141DE /* iOS_AR_Ch4_SensorsAppDelegate.h */,
+				9604F5E913C3889F008141DE /* iOS_AR_Ch4_SensorsAppDelegate.m */,
+				9604F5EB13C3889F008141DE /* MainWindow.xib */,
+				9604F5EE13C3889F008141DE /* FirstViewController.h */,
+				9604F5EF13C3889F008141DE /* FirstViewController.m */,
+				9604F5F113C3889F008141DE /* SecondViewController.h */,
+				9604F5F213C3889F008141DE /* SecondViewController.m */,
+				9604F5F413C3889F008141DE /* FirstView.xib */,
+				9604F5F713C3889F008141DE /* SecondView.xib */,
+				9604F5E013C3889F008141DE /* Supporting Files */,
+				96E32ED21422400A00FA0FBC /* headingViewController.h */,
+				96E32ED31422400A00FA0FBC /* headingViewController.m */,
+				96E32ED41422400A00FA0FBC /* headingViewController.xib */,
+			);
+			path = iOS_AR_Ch4_Sensors;
+			sourceTree = "<group>";
+		};
+		9604F5E013C3889F008141DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96E32ED8142240E300FA0FBC /* compass.png */,
+				96B52EE113C80C290034CCCF /* figher-jet.png */,
+				9604F5E113C3889F008141DE /* iOS_AR_Ch4_Sensors-Info.plist */,
+				9604F5E213C3889F008141DE /* InfoPlist.strings */,
+				9604F5E513C3889F008141DE /* iOS_AR_Ch4_Sensors-Prefix.pch */,
+				9604F5E613C3889F008141DE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9604F5D413C3889F008141DE /* iOS_AR_Ch4_Sensors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9604F5FC13C3889F008141DE /* Build configuration list for PBXNativeTarget "iOS_AR_Ch4_Sensors" */;
+			buildPhases = (
+				9604F5D113C3889F008141DE /* Sources */,
+				9604F5D213C3889F008141DE /* Frameworks */,
+				9604F5D313C3889F008141DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS_AR_Ch4_Sensors;
+			productName = iOS_AR_Ch4_Sensors;
+			productReference = 9604F5D513C3889F008141DE /* iOS_AR_Ch4_Sensors.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9604F5CC13C3889F008141DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Isidorey;
+			};
+			buildConfigurationList = 9604F5CF13C3889F008141DE /* Build configuration list for PBXProject "iOS_AR_Ch4_Sensors" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9604F5CA13C3889F008141DE;
+			productRefGroup = 9604F5D613C3889F008141DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9604F5D413C3889F008141DE /* iOS_AR_Ch4_Sensors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9604F5D313C3889F008141DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9604F5E413C3889F008141DE /* InfoPlist.strings in Resources */,
+				9604F5ED13C3889F008141DE /* MainWindow.xib in Resources */,
+				9604F5F613C3889F008141DE /* FirstView.xib in Resources */,
+				9604F5F913C3889F008141DE /* SecondView.xib in Resources */,
+				96B52EE213C80C290034CCCF /* figher-jet.png in Resources */,
+				96E32ED61422400A00FA0FBC /* headingViewController.xib in Resources */,
+				96E32ED9142240E300FA0FBC /* compass.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9604F5D113C3889F008141DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9604F5E713C3889F008141DE /* main.m in Sources */,
+				9604F5EA13C3889F008141DE /* iOS_AR_Ch4_SensorsAppDelegate.m in Sources */,
+				9604F5F013C3889F008141DE /* FirstViewController.m in Sources */,
+				9604F5F313C3889F008141DE /* SecondViewController.m in Sources */,
+				96E32ED51422400A00FA0FBC /* headingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9604F5E213C3889F008141DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9604F5E313C3889F008141DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9604F5EB13C3889F008141DE /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9604F5EC13C3889F008141DE /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		9604F5F413C3889F008141DE /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9604F5F513C3889F008141DE /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		9604F5F713C3889F008141DE /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9604F5F813C3889F008141DE /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9604F5FA13C3889F008141DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9604F5FB13C3889F008141DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		9604F5FD13C3889F008141DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS_AR_Ch4_Sensors/iOS_AR_Ch4_Sensors-Prefix.pch";
+				INFOPLIST_FILE = "iOS_AR_Ch4_Sensors/iOS_AR_Ch4_Sensors-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9604F5FE13C3889F008141DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS_AR_Ch4_Sensors/iOS_AR_Ch4_Sensors-Prefix.pch";
+				INFOPLIST_FILE = "iOS_AR_Ch4_Sensors/iOS_AR_Ch4_Sensors-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9604F5CF13C3889F008141DE /* Build configuration list for PBXProject "iOS_AR_Ch4_Sensors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9604F5FA13C3889F008141DE /* Debug */,
+				9604F5FB13C3889F008141DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9604F5FC13C3889F008141DE /* Build configuration list for PBXNativeTarget "iOS_AR_Ch4_Sensors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9604F5FD13C3889F008141DE /* Debug */,
+				9604F5FE13C3889F008141DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9604F5CC13C3889F008141DE /* Project object */;
+}

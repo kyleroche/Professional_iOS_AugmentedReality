@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9639C94713BB892F00277747 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9639C94613BB892F00277747 /* MapKit.framework */; };
+		9639C95013BBAB6B00277747 /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9639C94F13BBAB6B00277747 /* MapAnnotation.m */; };
+		968C1AF913A6B0A0000776A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968C1AF813A6B0A0000776A6 /* UIKit.framework */; };
+		968C1AFB13A6B0A0000776A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968C1AFA13A6B0A0000776A6 /* Foundation.framework */; };
+		968C1AFD13A6B0A0000776A6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968C1AFC13A6B0A0000776A6 /* CoreGraphics.framework */; };
+		968C1B0313A6B0A0000776A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 968C1B0113A6B0A0000776A6 /* InfoPlist.strings */; };
+		968C1B0613A6B0A0000776A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 968C1B0513A6B0A0000776A6 /* main.m */; };
+		968C1B0913A6B0A0000776A6 /* iOS_AR_Ch3_LocationServicesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 968C1B0813A6B0A0000776A6 /* iOS_AR_Ch3_LocationServicesAppDelegate.m */; };
+		968C1B0C13A6B0A0000776A6 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 968C1B0A13A6B0A0000776A6 /* MainWindow.xib */; };
+		968C1B0F13A6B0A0000776A6 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 968C1B0E13A6B0A0000776A6 /* FirstViewController.m */; };
+		968C1B1213A6B0A0000776A6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 968C1B1113A6B0A0000776A6 /* SecondViewController.m */; };
+		968C1B1513A6B0A0000776A6 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 968C1B1313A6B0A0000776A6 /* FirstView.xib */; };
+		968C1B1813A6B0A0000776A6 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 968C1B1613A6B0A0000776A6 /* SecondView.xib */; };
+		96E8BEAD13ABF521005BE3E5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E8BEAC13ABF521005BE3E5 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9639C94613BB892F00277747 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9639C94E13BBAB6B00277747 /* MapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotation.h; sourceTree = "<group>"; };
+		9639C94F13BBAB6B00277747 /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotation.m; sourceTree = "<group>"; };
+		968C1AF413A6B09F000776A6 /* iOS_AR_Ch3_LocationServices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_AR_Ch3_LocationServices.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		968C1AF813A6B0A0000776A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		968C1AFA13A6B0A0000776A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		968C1AFC13A6B0A0000776A6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		968C1B0013A6B0A0000776A6 /* iOS_AR_Ch3_LocationServices-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS_AR_Ch3_LocationServices-Info.plist"; sourceTree = "<group>"; };
+		968C1B0213A6B0A0000776A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		968C1B0413A6B0A0000776A6 /* iOS_AR_Ch3_LocationServices-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS_AR_Ch3_LocationServices-Prefix.pch"; sourceTree = "<group>"; };
+		968C1B0513A6B0A0000776A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		968C1B0713A6B0A0000776A6 /* iOS_AR_Ch3_LocationServicesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS_AR_Ch3_LocationServicesAppDelegate.h; sourceTree = "<group>"; };
+		968C1B0813A6B0A0000776A6 /* iOS_AR_Ch3_LocationServicesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_AR_Ch3_LocationServicesAppDelegate.m; sourceTree = "<group>"; };
+		968C1B0B13A6B0A0000776A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		968C1B0D13A6B0A0000776A6 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		968C1B0E13A6B0A0000776A6 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		968C1B1013A6B0A0000776A6 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		968C1B1113A6B0A0000776A6 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		968C1B1413A6B0A0000776A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		968C1B1713A6B0A0000776A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		96E8BEAC13ABF521005BE3E5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		968C1AF113A6B09F000776A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9639C94713BB892F00277747 /* MapKit.framework in Frameworks */,
+				96E8BEAD13ABF521005BE3E5 /* CoreLocation.framework in Frameworks */,
+				968C1AF913A6B0A0000776A6 /* UIKit.framework in Frameworks */,
+				968C1AFB13A6B0A0000776A6 /* Foundation.framework in Frameworks */,
+				968C1AFD13A6B0A0000776A6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		968C1AE913A6B09F000776A6 = {
+			isa = PBXGroup;
+			children = (
+				9639C94613BB892F00277747 /* MapKit.framework */,
+				968C1AFE13A6B0A0000776A6 /* iOS_AR_Ch3_LocationServices */,
+				968C1AF713A6B09F000776A6 /* Frameworks */,
+				968C1AF513A6B09F000776A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		968C1AF513A6B09F000776A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				968C1AF413A6B09F000776A6 /* iOS_AR_Ch3_LocationServices.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		968C1AF713A6B09F000776A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96E8BEAC13ABF521005BE3E5 /* CoreLocation.framework */,
+				968C1AF813A6B0A0000776A6 /* UIKit.framework */,
+				968C1AFA13A6B0A0000776A6 /* Foundation.framework */,
+				968C1AFC13A6B0A0000776A6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		968C1AFE13A6B0A0000776A6 /* iOS_AR_Ch3_LocationServices */ = {
+			isa = PBXGroup;
+			children = (
+				968C1B0713A6B0A0000776A6 /* iOS_AR_Ch3_LocationServicesAppDelegate.h */,
+				968C1B0813A6B0A0000776A6 /* iOS_AR_Ch3_LocationServicesAppDelegate.m */,
+				968C1B0A13A6B0A0000776A6 /* MainWindow.xib */,
+				968C1B0D13A6B0A0000776A6 /* FirstViewController.h */,
+				968C1B0E13A6B0A0000776A6 /* FirstViewController.m */,
+				968C1B1013A6B0A0000776A6 /* SecondViewController.h */,
+				968C1B1113A6B0A0000776A6 /* SecondViewController.m */,
+				968C1B1313A6B0A0000776A6 /* FirstView.xib */,
+				968C1B1613A6B0A0000776A6 /* SecondView.xib */,
+				968C1AFF13A6B0A0000776A6 /* Supporting Files */,
+				9639C94E13BBAB6B00277747 /* MapAnnotation.h */,
+				9639C94F13BBAB6B00277747 /* MapAnnotation.m */,
+			);
+			path = iOS_AR_Ch3_LocationServices;
+			sourceTree = "<group>";
+		};
+		968C1AFF13A6B0A0000776A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				968C1B0013A6B0A0000776A6 /* iOS_AR_Ch3_LocationServices-Info.plist */,
+				968C1B0113A6B0A0000776A6 /* InfoPlist.strings */,
+				968C1B0413A6B0A0000776A6 /* iOS_AR_Ch3_LocationServices-Prefix.pch */,
+				968C1B0513A6B0A0000776A6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		968C1AF313A6B09F000776A6 /* iOS_AR_Ch3_LocationServices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 968C1B1B13A6B0A0000776A6 /* Build configuration list for PBXNativeTarget "iOS_AR_Ch3_LocationServices" */;
+			buildPhases = (
+				968C1AF013A6B09F000776A6 /* Sources */,
+				968C1AF113A6B09F000776A6 /* Frameworks */,
+				968C1AF213A6B09F000776A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS_AR_Ch3_LocationServices;
+			productName = iOS_AR_Ch3_LocationServices;
+			productReference = 968C1AF413A6B09F000776A6 /* iOS_AR_Ch3_LocationServices.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		968C1AEB13A6B09F000776A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Isidorey;
+			};
+			buildConfigurationList = 968C1AEE13A6B09F000776A6 /* Build configuration list for PBXProject "iOS_AR_Ch3_LocationServices" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 968C1AE913A6B09F000776A6;
+			productRefGroup = 968C1AF513A6B09F000776A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				968C1AF313A6B09F000776A6 /* iOS_AR_Ch3_LocationServices */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		968C1AF213A6B09F000776A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968C1B0313A6B0A0000776A6 /* InfoPlist.strings in Resources */,
+				968C1B0C13A6B0A0000776A6 /* MainWindow.xib in Resources */,
+				968C1B1513A6B0A0000776A6 /* FirstView.xib in Resources */,
+				968C1B1813A6B0A0000776A6 /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		968C1AF013A6B09F000776A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968C1B0613A6B0A0000776A6 /* main.m in Sources */,
+				968C1B0913A6B0A0000776A6 /* iOS_AR_Ch3_LocationServicesAppDelegate.m in Sources */,
+				968C1B0F13A6B0A0000776A6 /* FirstViewController.m in Sources */,
+				968C1B1213A6B0A0000776A6 /* SecondViewController.m in Sources */,
+				9639C95013BBAB6B00277747 /* MapAnnotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		968C1B0113A6B0A0000776A6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				968C1B0213A6B0A0000776A6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		968C1B0A13A6B0A0000776A6 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				968C1B0B13A6B0A0000776A6 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		968C1B1313A6B0A0000776A6 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				968C1B1413A6B0A0000776A6 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		968C1B1613A6B0A0000776A6 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				968C1B1713A6B0A0000776A6 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		968C1B1913A6B0A0000776A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		968C1B1A13A6B0A0000776A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		968C1B1C13A6B0A0000776A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kyle Roche (QKYEY6ETA6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kyle Roche (QKYEY6ETA6)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS_AR_Ch3_LocationServices/iOS_AR_Ch3_LocationServices-Prefix.pch";
+				INFOPLIST_FILE = "iOS_AR_Ch3_LocationServices/iOS_AR_Ch3_LocationServices-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "CDE09DFC-2B4E-45B7-BB08-FC36D8D66269";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CDE09DFC-2B4E-45B7-BB08-FC36D8D66269";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		968C1B1D13A6B0A0000776A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kyle Roche (QKYEY6ETA6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kyle Roche (QKYEY6ETA6)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS_AR_Ch3_LocationServices/iOS_AR_Ch3_LocationServices-Prefix.pch";
+				INFOPLIST_FILE = "iOS_AR_Ch3_LocationServices/iOS_AR_Ch3_LocationServices-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "CDE09DFC-2B4E-45B7-BB08-FC36D8D66269";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CDE09DFC-2B4E-45B7-BB08-FC36D8D66269";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		968C1AEE13A6B09F000776A6 /* Build configuration list for PBXProject "iOS_AR_Ch3_LocationServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				968C1B1913A6B0A0000776A6 /* Debug */,
+				968C1B1A13A6B0A0000776A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		968C1B1B13A6B0A0000776A6 /* Build configuration list for PBXNativeTarget "iOS_AR_Ch3_LocationServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				968C1B1C13A6B0A0000776A6 /* Debug */,
+				968C1B1D13A6B0A0000776A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 968C1AEB13A6B09F000776A6 /* Project object */;
+}

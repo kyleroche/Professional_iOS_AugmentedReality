@@ -1,0 +1,5 @@
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+*/build
+.DS_Store
+iOS_AR_Ch5_SoundUserFeedback.xcodeproj/project.pbxproj

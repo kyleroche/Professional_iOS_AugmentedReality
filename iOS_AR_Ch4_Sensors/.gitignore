@@ -1,0 +1,6 @@
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+*/build
+.DS_Store
+
+iOS_AR_Ch4_Sensors.xcodeproj/project.xcworkspace/xcuserdata/kyleroche.xcuserdatad/UserInterfaceState.xcuserstate
