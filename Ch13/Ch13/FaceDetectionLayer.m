@@ -67,8 +67,8 @@
         NSURL * url = [NSURL URLWithString:@"http://api.face.com/faces/detect.json"];
         
         ASIFormDataRequest *request = [ASIFormDataRequest requestWithURL:url];
-        [request addPostValue:@"cd31b28498224cf9ccb39f9194569af8" forKey:@"api_key"];
-        [request addPostValue:@"5c1539f426e5cb2d829bdddd3d982a5a" forKey:@"api_secret"];
+        [request addPostValue:@"" forKey:@"api_key"];
+        [request addPostValue:@"" forKey:@"api_secret"];
         [request addPostValue:@"all" forKey:@"attributes"];
         [request addData:imageData withFileName:@"image.jpg" andContentType:@"image/jpeg" forKey:@"filename"];
         
@@ -110,8 +110,8 @@
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
     
     NSLog(@"Sending request");
-    NSString *accountSid = @"ACee3d4f069610816247170d8b47f967c0";
-    NSString *authToken = @"f074392fe9c4272a041805fbf0d66fdb";
+    NSString *accountSid = @"";
+    NSString *authToken = @"";
     NSString *urlString = [NSString stringWithFormat:@"https://%@:%@@api.twilio.com/2010-04-01/Accounts/%@/SMS/Messages", accountSid, authToken, accountSid];
                    
     NSURL *url = [NSURL URLWithString:urlString];
