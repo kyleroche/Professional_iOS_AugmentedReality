@@ -1,0 +1,5 @@
+Code in this chapter is based on ARKit: https://github.com/zac/iphonearkit
+Modifications made by Nielswh: https://github.com/nielswh/iPhone-AR-Toolkit
+Further modifications (Coordinate class) made by Alasdair Allan. 
+
+All previous work was re-factored and depracted methods were updated. The example was modified to pull Facebook places from the Gaph API and display them in an Augmented Reality view. Full details available in Chapter 11 of the book. 
