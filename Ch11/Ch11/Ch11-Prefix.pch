@@ -1,0 +1,17 @@
+//
+// Prefix header for all source files of the 'Ch11' target in the 'Ch11' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#define degreesToRadians(x) (M_PI * (x) / 180.0)
+#define radiansToDegrees(x) ((x) * 180.0/M_PI)

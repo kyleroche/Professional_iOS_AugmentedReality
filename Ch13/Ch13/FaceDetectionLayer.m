@@ -94,7 +94,7 @@
                 [root performSelectorOnMainThread:@selector(updateMood:) withObject:mood waitUntilDone:YES];
             }
             
-            [self sendSMS];
+            //[self sendSMS];
             NSLog(@"%@",response);
         } else {
             NSLog(@"An error occured %d",[error code]);

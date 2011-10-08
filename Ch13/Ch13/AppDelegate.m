@@ -144,7 +144,7 @@
     _layer.root = viewController;
 	[[CCDirector sharedDirector] runWithScene: scene];
     
-    _timer = [NSTimer scheduledTimerWithTimeInterval:10.0 target:self selector:@selector(timerCallback) userInfo:nil repeats:YES];
+    _timer = [NSTimer scheduledTimerWithTimeInterval:5.0 target:self selector:@selector(timerCallback) userInfo:nil repeats:YES];
     
     [self setupCaptureSession];
 }
